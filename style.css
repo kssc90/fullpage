@@ -1,0 +1,157 @@
+body {
+    background-color: #161616;
+}
+
+
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1080px;
+    text-align: center;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    background-color: #161616;
+    padding: 30px 200px;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.top_img {
+    height: 80px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.top_nav * {
+    color: aliceblue;
+    padding: 10px;
+}
+
+.top_button {
+    background-color: skyblue;
+    border: none;
+    padding: 10px 40px;
+    font-weight: bold;
+}
+
+#nav_home {
+    padding-left: 40px;
+}
+
+
+
+.intro {
+    margin: 0 auto;
+    display: flex;
+    max-width: 1080px;
+    padding: 30px 200px;
+}
+
+
+.intro_img {
+    width: 50%;
+}
+
+.intro_text {
+
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.intro_text * {
+    padding-bottom: 30px;
+    padding-left: 50px;
+    color: white;
+}
+
+h4 {
+    font-size: 30px;
+    color: aqua;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.about {
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    max-width: 1080px;
+    padding: 30px 200px;
+}
+
+.about_img {
+    width: 30%;
+}
+
+.about_text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    justify-content: center;
+}
+
+.about_text * {
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.service {
+    background-color: rgb(224, 217, 217);
+    margin: 0 auto;
+    max-width: 1080px;
+    padding: 30px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service_img {
+    position: relative;
+    bottom: 40px;
+    height: 80px;
+    width: 80px;
+    background-color: aqua;
+}
+
+.service_box div {
+    background-color: white;
+    text-align: center;
+    margin: 15px;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 40px;
+}
+
+.service_box {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service_box div:hover{
+    background-color: black;
+    color:white;
+}
